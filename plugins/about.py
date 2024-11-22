@@ -80,14 +80,8 @@ async def start_command(client: Client, message: Message):
     else:
         reply_markup = InlineKeyboardMarkup(
                 [
-                    [ InlineKeyboardButton(text="🏖️", callback_data="about"),
-                    InlineKeyboardButton(text="🍂", callback_data="about"),
-                    InlineKeyboardButton(text="⚠️", callback_data="me"),
-                    InlineKeyboardButton(text="💸", callback_data="about"),
-                    InlineKeyboardButton(text="🎭", callback_data="about"),
-                ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" ),
-                    InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", callback_data = "source")
-                ], [ InlineKeyboardButton("ᴡᴀᴛᴄʜ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "http://t.me/UnseenRobot/shorts") ],
+                
+                ],[ InlineKeyboardButton( "ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", callback_data = "main" )
                 [
                     InlineKeyboardButton("ʜᴇʟᴘ", callback_data = "help"),
                     InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data = "about")
