@@ -18,10 +18,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
 ├➤ ᴅᴇᴠʟᴏᴘᴇʀ : <a href=https://t.me/About_meowtaro>トウカ様</a>
 ╰───────────────⍟</blockquote></b>""",
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup(
-                [ [ InlineKeyboardButton("sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", callback_data ="source"),
-                  InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ" , callback_data = "main")],
-                 [InlineKeyboardButton("ᴡᴀᴛᴄʜ sʜᴏʀᴛs ᴠɪᴅᴇᴏs", url = "https://t.me/UnseenRobot/shorts")],
+            reply_markup=InlineKeyboardMarkup
+            
                     [
                         InlineKeyboardButton("ʜᴏᴍᴇ", callback_data = "start"),
                         InlineKeyboardButton(" ᴄʟᴏsᴇ ", callback_data = "close")
